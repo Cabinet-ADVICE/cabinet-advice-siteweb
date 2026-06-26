@@ -1,0 +1,17 @@
+{
+  "name": "Cabinet ADVICE",
+  "short_name": "ADVICE",
+  "description": "Expert marocain en études stratégiques, ingénierie de formation et conseil aux entreprises.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#1b2e6f",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

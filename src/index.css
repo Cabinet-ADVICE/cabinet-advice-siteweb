@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1b2e6f;
+  --color-gold: #b87a28;
+  --color-slate: #64748b;
+  --color-background: #f5f8fb;
+  --color-border: #e2e8f0;
+  --font-sora: "Sora", system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-inter);
+  background: #fff;
+  color: #0f172a;
+}
+
+.font-sora {
+  font-family: var(--font-sora);
+}
+
+.text-slate {
+  color: var(--color-slate);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-border {
+  background-color: var(--color-border);
+}
+
+.border-border {
+  border-color: var(--color-border);
+}
+
+html[dir="rtl"] body {
+  font-family: "Noto Sans Arabic", var(--font-inter);
+}
+
+html[dir="rtl"] .font-sora {
+  font-family: "Noto Sans Arabic", var(--font-sora);
+}
