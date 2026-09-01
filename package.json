@@ -8,7 +8,8 @@
     "prebuild": "node scripts/generate-seo-files.mjs",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "framer-motion": "^12.40.0",
